@@ -1,0 +1,64 @@
+/* ------------------------------------------------- */
+/* Main styles                                       */
+/* ------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+h1,h3,h2,a {
+    font-family: 'Lato', sans-serif;
+}
+
+.title h1, .title h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #666756;
+}
+
+h1 {
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.title {
+    text-align: right;
+}
+
+hr {
+    border: 1.5px solid #BBBBBB;
+    background-color: #BBBBBB;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #BBBBBB;
+    font-weight: 300;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #666756;
+}
+
+.item {
+    text-align: center;
+}
+
+.item a{
+    font-size: 0.7em;
+    color: #BBBBBB;
+}
+
+img {
+    width: 100%;
+}

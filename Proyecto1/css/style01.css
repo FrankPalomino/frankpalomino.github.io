@@ -1,0 +1,40 @@
+/*
+* {
+    outline: 1px solid red !important;
+}
+*/
+
+.container {
+    padding: 5px;
+    width: 900px;
+    margin: auto;
+}
+
+.title {
+    background-color: #3F51B5;
+    color: white;
+    font-size: 40px;
+    padding-top: 40px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.content {
+    display: flex;
+    margin-top: 20px;
+}
+
+.image {
+    flex: 1;
+}
+
+.description {
+    flex: 2;
+    font-size: 18px;
+    color: #8e8ecf;
+    padding-left: 10px;
+}
+
+img {
+    width: 100%;
+}
