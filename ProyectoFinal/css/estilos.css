@@ -32,6 +32,12 @@
     display: inline-block;
 }
 
+audio {
+    height: 30px;
+    position: absolute;
+    left: 40px;
+}
+
 #x {
     width: 20px;
     background-color: #252525;
