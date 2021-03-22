@@ -8,12 +8,12 @@
 
 ::-moz-selection { /* Code for Firefox */
   color: #fff;
-  background: #008ED6;
+  background: #005b88;
 }
 
 ::selection {
   color: #fff;
-  background: #008ED6;
+  background: #005b88;
 }
 
 html {
@@ -31,8 +31,12 @@ body {
   -webkit-font-smoothing : antialiased;
 }
 
+.small{
+  font-size:0.3rem;
+}
+
 h2 span {
-  color: #008ED6;
+  color: #005b88;
 }
 
 .animated {
@@ -71,10 +75,15 @@ a, a:active, a:hover, a:focus{
   outline: 0;
   text-decoration: none;
   color: #00B2FF;
+  font-weight: bolder;
 }
 
 a {
-  color: #008ED6;
+  color: #005b88;
+}
+
+a:focus {
+  outline: 2px solid white;
 }
 
 .container-fluid {
@@ -176,7 +185,7 @@ a {
 }
 
 .navbar-fixed-top .navbar-nav > li > a:hover {
-  color: #008ED6;
+  color: #005b88;
 }
 
 .navbar-fixed-top .navbar-brand {
@@ -189,7 +198,7 @@ a {
 }
 
 .navbar-fixed-top .navbar-nav > li > a:hover {
-  color: #008ED6;
+  color: #005b88;
 }
 
 .navbar-fixed-top .navbar-toggle {
@@ -207,7 +216,7 @@ a {
 
 .navbar-fixed-top .navbar-toggle:hover,
 .navbar-fixed-top .navbar-toggle:focus {
-  background-color: #008ED6;
+  background-color: #005b88;
 }
 
 @media (min-width:768px) {
@@ -280,8 +289,8 @@ a {
     z-index: 97;
     display: block;
     padding: 16px 10px;
-    border: 0px solid #008ED6;
-    background: #008ED6;
+    border: 0px solid #005b88;
+    background: #005b88;
     -webkit-transition: border-width 0.3s 0.15s;
     transition: border-width 0.3s 0.15s;
 }
@@ -321,7 +330,7 @@ a {
     display: block;
     padding-bottom: 5px;
     border-bottom: 1px solid #ddd;
-    color: #888;
+    color: #494949;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 400;
@@ -339,7 +348,7 @@ a {
 }
 
 .nav-slide div p {
-    color: #008ED6;
+    color: #005b88;
     font-family: "Lucida Bright",Georgia,serif;
     font-size: 75%;
     font-style: italic;
@@ -439,7 +448,7 @@ a {
 }
 
 .header-slide .image-slide a:hover {
-  color: #008ED6 !important;
+  color: #005b88 !important;
 }
 
 .header-slide .image-slide .slider-content {
@@ -527,7 +536,7 @@ header.title h2 {
 }
 
 .light h2 span {
-  color: #008ED6;
+  color: #005b88;
 }
 
 .dark strong,
@@ -543,7 +552,7 @@ header.title h2 {
 .separator.blue {
   padding-top: 60px !important;
   padding-bottom: 60px !important;
-  background-color: #008ED6;
+  background-color: #005b88;
 }
 
 .separator.blue h2 span {
@@ -636,7 +645,7 @@ span.quot-name:before {
 
 .about-content {
   margin-bottom: 25px;
-  color: #666;
+  color: #313131;
 }
 
 .about-content.left > .about-icon,
@@ -661,7 +670,7 @@ span.quot-name:before {
 
 .about-icon {
   font-size: 45px;
-  color: #888987;
+  color: #5b5c5b;
 }
 
 .about-detail {
@@ -731,7 +740,7 @@ span.quot-name:before {
 }
 
 .percentage:after {
-  border-top: 4px solid #008ED6;
+  border-top: 4px solid #005b88;
   border-left: 4px solid rgba(0,0,0,0);
   border-right: 4px solid rgba(0,0,0,0);  
 }
@@ -774,13 +783,13 @@ span.quot-name:before {
   font-weight: 300;
   margin-bottom: 20px;
   font-size: 12px;
-  color: #666;
+  color: #313131;
 }
 
 #team .wrap p {
   font-size: 12px;
   min-height: 70px;
-  color: #666;
+  color: #313131;
 }
 
 .team-social {
@@ -817,7 +826,7 @@ span.quot-name:before {
 }
 
 .social-list li a:hover {
-  color: #008ED6
+  color: #005b88
 }
 
 
@@ -889,7 +898,7 @@ span.quot-name:before {
 }
 
 #filters > li.active {
-  color: #008ED6;
+  color: #005b88;
   font-weight: 700;
 }
 
@@ -1023,7 +1032,7 @@ span.quot-name:before {
 }
 
 .form-control:focus {
-  border-color: #008ED6;
+  border-color: #005b88;
   outline: 0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),0 0 8px rgba(0, 142, 214, 0.6);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),0 0 8px rgba(0, 142, 214, 0.6);
@@ -1055,7 +1064,7 @@ textarea.form-control {
   left: 0;
   top: 0;
   height: 100%;
-  background-color: #008ED6;
+  background-color: #005b88;
   width: 0;
   z-index: -1;
   transition: all .3s;
@@ -1072,7 +1081,7 @@ address span {
 }
 
 address span .fa {
-  color: #008ED6;
+  color: #005b88;
   margin-right: 10px;
 }
 
@@ -1108,7 +1117,7 @@ address span a {
 }
 
 .btn-map:hover {
-  color: #008ED6;
+  color: #005b88;
 }
 
 #google_map {
@@ -1142,5 +1151,5 @@ address span a {
 }
 
 #footer .fa {
-  color: #008ED6;
+  color: #005b88;
 }
